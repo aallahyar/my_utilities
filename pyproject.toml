@@ -17,7 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = ["utilities", "personal"]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dynamic = ["dependencies"]
 
 [project.urls]
