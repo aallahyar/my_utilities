@@ -64,6 +64,18 @@ link_df = pd.DataFrame({
 
 print(node_df.iloc[:5, :])
 print(link_df.iloc[:5, :])
+#    id          label      color     x     y
+# 0   0  Google Search  #4682B4FF  0.12  0.20
+# 1   1        YouTube  steelblue  0.12  0.42
+# 2   2          AdMob  steelblue  0.12  0.55
+# 3   3    Google Play    #FFD700  0.25  0.70
+# 4   4   Google Cloud       gold  0.30  0.85
+#    source  target  value         color
+# 0       0       6   39.5  LightSkyBlue
+# 1       1       6    7.1  LightSkyBlue
+# 2       2       6    7.9  LightSkyBlue
+# 3       3       7    6.9     goldenrod
+# 4       4       7    6.9     goldenrod
 
 # ------- producing the Sankey plot -------
 node, link = build_sankey_data(node_df, link_df)
